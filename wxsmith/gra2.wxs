@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="gra2">
+		<title>Ranking</title>
+		<pos>500,100</pos>
+		<size>650,800</size>
+		<bg>#000000</bg>
+		<id_arg>0</id_arg>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Ranking graczy</label>
+			<pos>224,72</pos>
+			<size>248,48</size>
+			<fg>#FF0000</fg>
+			<font>
+				<size>20</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<pos>208,136</pos>
+			<size>224,248</size>
+			<fg>#00FF00</fg>
+			<bg>#000000</bg>
+			<font>
+				<size>16</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+			</font>
+			<handler function="OnTextCtrl1Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+			<label>POWROT</label>
+			<pos>240,464</pos>
+			<size>168,40</size>
+			<fg>#0000FF</fg>
+			<bg>#000000</bg>
+			<font>
+				<size>20</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+			</font>
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+			<label>POKAZ</label>
+			<pos>240,405</pos>
+			<size>168,40</size>
+			<fg>#00FF00</fg>
+			<bg>#000000</bg>
+			<font>
+				<size>20</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+			</font>
+			<handler function="OnButton2Click" entry="EVT_BUTTON" />
+		</object>
+	</object>
+</wxsmith>
